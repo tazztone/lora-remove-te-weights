@@ -1,3 +1,5 @@
+i made this script to make my LoRA compatible with nunchaku LoRA loader, as it couldn't handle the text encoder weights from kohya_ss with "train_t5xxl: true".
+
 # LoRA Remove Text Encoder Weights
 
 This script filters a LoRA `.safetensors` file to keep only the U-Net weights, removing any text encoder weights. Useful for sharing or optimizing LoRA files for inference.
