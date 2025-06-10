@@ -1,7 +1,3 @@
-
-
-
-
 import safetensors.torch
 import os
 

@@ -12,6 +12,7 @@ This script filters a LoRA `.safetensors` file to keep only the U-Net weights, r
 - `lora_keys.txt`: (Optional) Example output of LoRA keys.
 
 ## Quick Start (Windows)
+0. open cmd and `git clone https://github.com/tazztone/lora-remove-te-weights`
 1. Place your LoRA file(s) (e.g., `m1r4.safetensors`) in the `PUT-SAFETENSORS-HERE` folder.
 2. Run `WINDOWS-install.bat` to set up the environment and install dependencies.
 3. Run `WINDOWS-start.bat` to process your files.
