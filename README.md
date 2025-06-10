@@ -4,12 +4,19 @@ This script filters a LoRA `.safetensors` file to keep only the U-Net weights, r
 
 ## Files
 - `script.py`: Main script to filter LoRA weights.
+- `WINDOWS-install.bat`: Sets up a Python virtual environment and installs dependencies (Windows).
+- `WINDOWS-start.bat`: Activates the environment and runs the script (Windows).
 - `inspect-lora.py`: (Optional) Script to inspect LoRA keys.
 - `lora_keys.txt`: (Optional) Example output of LoRA keys.
 
-## Usage
-1. Place your LoRA file (e.g., `m1r4.safetensors`) in this directory.
-2. Edit `script.py` to set the correct input/output filenames if needed.
+## Quick Start (Windows)
+1. Place your LoRA file(s) (e.g., `m1r4.safetensors`) in the `PUT-SAFETENSORS-HERE` folder.
+2. Run `WINDOWS-install.bat` to set up the environment and install dependencies.
+3. Run `WINDOWS-start.bat` to process your files.
+
+## Manual Usage (Other OS / Advanced)
+1. Place your LoRA file (e.g., `m1r4.safetensors`) in this directory or the correct folder.
+2. Edit `script.py` to set the correct input/output filenames or folder if needed.
 3. (Recommended) Use a Python virtual environment.
 4. Install dependencies:
    ```pwsh
